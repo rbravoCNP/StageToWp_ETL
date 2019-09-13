@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="wordpress oledb connection"
+  DTS:DTSID="{97B8B463-F452-40C5-A227-55574B95EE82}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=stagecnpdb;User ID=copia_redcnp;Initial Catalog=copia_redcnp;Provider=MSDataShape.1;Persist Security Info=True;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAl4wvNrCYoE2iSPl2nToZvQAAAAACAAAAAAADZgAAwAAAABAAAACDLQP/+0or9FiD69R4MPZlAAAAAASAAACgAAAAEAAAAHNagGwdvVFC6xRRdLOzPXd4AAAAmRiY8rCxd6oFm8IrCWmh3C4T1SqYTrj25RkPZRyw+mE7vmp1i58p6iZLSdkWOHOT6093E+jb9f1jWTlzxSp4mh6xkpUILe6qKUdLPmgVraRQ8yXG59lapnCkpK86L9dhC5xQ+w8T8LA3Yq1zk9ONTBD/5l2b5gftFAAAAOwPQenNruZ5UU5GU13/kTBJS+zU</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

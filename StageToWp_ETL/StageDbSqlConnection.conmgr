@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="StageDbSqlConnection"
+  DTS:DTSID="{ECD805C3-D716-40E3-84A2-48DC56F0B49C}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=SQL05\SAP;User ID=Usr_ETLPortal2;Initial Catalog=CNP_DB;Persist Security Info=True;Application Name=SSIS-StageToWp_ETL-{ECD805C3-D716-40E3-84A2-48DC56F0B49C}HXNB-DFRIAS.TestBI;Context Connection=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAl4wvNrCYoE2iSPl2nToZvQAAAAACAAAAAAADZgAAwAAAABAAAAAloNXTn7UzkoEGSnGdAn8MAAAAAASAAACgAAAAEAAAAIjE0UENzUafNdAIVyZMdnh4AAAA1W0MzEy6f7SNBvkBeqelIfVm2+9CuapOhaGPfocs4iGhecJ+9n+LjmWAlCkhkvDiKwlO/v5aLB66GXaP7UJ0ffK5DijrZE5DCDyCrzypeSug9Oo1dchEftCrGaQhoaJoVOpJC8Cri4V9fMRXy46v0Gn0fdpafS8LFAAAABcNnImAbp0hLzZz4isKJGehsfhg</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

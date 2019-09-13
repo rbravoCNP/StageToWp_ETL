@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="wordpress destination db"
+  DTS:DTSID="{0435CFED-35A5-4042-AF7C-F95F0455E3B2}"
+  DTS:CreationName="ODBC">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="uid=copia_redcnp;Dsn=stagecnpdb;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
